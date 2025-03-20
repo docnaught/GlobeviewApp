@@ -1,0 +1,61 @@
+.controls-panel {
+  flex: 1;
+  background-color: #16213e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-right: 20px;
+  text-align: left;
+  min-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .controls-panel {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.control-group {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #e94560;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c73e55;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  background-color: #0f3460;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
