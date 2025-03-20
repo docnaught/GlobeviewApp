@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.app-header {
+  padding: 20px;
+  background-color: #0f3460;
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
+
+.globe-container {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
