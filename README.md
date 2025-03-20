@@ -27,9 +27,12 @@ GitHub Codespaces provides a complete development environment in the cloud, allo
 
 5. Wait for the codespace to initialize (this may take a minute)
 
-6. Once the codespace is ready, open a terminal and run:
-   ```
+6. Once the codespace is ready, open a terminal and run these commands:
+   ```bash
+   # Install dependencies (only needs to be done once)
    npm install
+
+   # Start the development server
    npm start
    ```
 
@@ -51,34 +54,44 @@ You can also view this project without installation by using CodeSandbox:
 If you want to run this project locally:
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/docnaught/GlobeviewApp.git
    ```
 
 2. Change to the project directory:
-   ```
+   ```bash
    cd GlobeviewApp
    ```
 
 3. Install dependencies:
-   ```
+   ```bash
    npm install
    ```
    or
-   ```
+   ```bash
    yarn install
    ```
 
 4. Start the development server:
-   ```
+   ```bash
    npm start
    ```
    or
-   ```
+   ```bash
    yarn start
    ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## NPM Commands Reference
+
+Here are the main npm commands you can use with this project:
+
+- `npm install` - Install all dependencies
+- `npm start` - Start the development server
+- `npm run build` - Create a production build
+- `npm test` - Run tests
+- `npm run eject` - Eject from Create React App (advanced, rarely needed)
 
 ## Customization
 
